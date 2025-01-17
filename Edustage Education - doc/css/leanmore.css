@@ -1,0 +1,21 @@
+/* Add transition to the image container */
+#imageContainer {
+    transition: transform 0.5s ease, width 0.5s ease; /* Smooth transition for resizing and movement */
+  }
+  
+  /* Enlarged state (applied dynamically via JavaScript) */
+  .col-lg-12 {
+    width: 100%; /* Full width */
+    transform: scale(1.1) translateX(20px); /* Slight enlargement and shift to the right */
+  }
+  
+  /* Default state (normal size and position) */
+  .col-lg-6 {
+    transform: scale(1) translateX(0); /* Reset to original size and position */
+  }
+  
+.aboutuscontainer{
+    overflow: hidden;
+    height: 11rem;
+    
+}
